@@ -1,4 +1,4 @@
-const { mac_addr } = require('./config.js');
+const { mac_addr } = require('./secret/config.js');
 
 const dash_button = require('node-dash-button');
 const dash = dash_button(mac_addr, null, null, 'all');
